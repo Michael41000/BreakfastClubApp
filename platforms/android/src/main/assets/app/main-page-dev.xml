@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+	<StackLayout class="main-layout">
+			<Button text="Create Breakfast" ontap="{{  }}" class="new-bkfst"/>
+			<Button text="Breakfast Feed" ontap="{{  }}" class="bkfst-feed"/>
+	</StackLayout>
+</Page>

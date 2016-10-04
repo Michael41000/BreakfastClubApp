@@ -10,7 +10,7 @@ function getMessage(counter) {
 
 function createViewModel() {
     var viewModel = new Observable();
-    viewModel.counter = 42;
+    viewModel.counter = 5;
     viewModel.message = getMessage(viewModel.counter);
 
     viewModel.onTap = function() {

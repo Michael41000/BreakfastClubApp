@@ -1,0 +1,37 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+	<StackLayout class="main-layout">
+			<!-- Must be dynamically generated here somehow -->
+
+			<Label text="NEXT BREAKFAST IN:  3d 15hr 14m" class="lbl-countdown"/>
+
+			<Border borderRadius="0" borderWidth="2" borderColor="transparent">
+				<StackLayout orientation="horizontal" class="bkfst-post">
+
+					<StackLayout>
+						<Button text="/\" ontap="{{  }}" class="btn-vote"/>
+						<Label text="9000" class="lbl-vote-count"/>
+						<Button text="\/" ontap="{{  }}" class="btn-vote"/>
+					</StackLayout>
+
+					<Image src="https://dalewrites.files.wordpress.com/2012/09/saturn-v-rocket.jpeg" class="post-img"></Image>
+
+				</StackLayout>
+			</Border>
+
+			<Border borderRadius="0" borderWidth="2" borderColor="transparent">
+				<StackLayout orientation="horizontal" class="bkfst-post">
+
+					<StackLayout>
+						<Button text="/\" ontap="{{  }}" class="btn-vote"/>
+						<Label text="9001" class="lbl-vote-count"/>
+						<Button text="\/" ontap="{{  }}" class="btn-vote"/>
+					</StackLayout>
+
+					<Image src="http://www.collectspace.com/images/news-101615a-lg.jpg" class="post-img"></Image>
+
+				</StackLayout>
+			</Border>			
+
+			
+	</StackLayout>
+</Page>
