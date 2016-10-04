@@ -43,3 +43,33 @@
 .main-layout {
 	background-color: #9595a0;/*#15164f;*/
 }
+
+ActionBar {
+	horizontal-align: center;
+	background-color: transparent;
+}
+
+Page {
+	background-color: #ffd700;
+}
+
+.btn-view-side {
+	background-image: http://i.stack.imgur.com/KVkTq.jpg;
+	background-position: center;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
+
+.lbl-countdown {
+	color: black;
+	font-size: 14;
+	horizontal-align: right;
+}
+
+.menu-bar {
+	background-color: #ffd700;
+	color: black;
+	padding: 5;
+	width: 100%;
+}

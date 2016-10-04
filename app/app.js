@@ -1,4 +1,6 @@
 var firebase = require("nativescript-plugin-firebase");
+//var listViewModule = require("nativescript-telerik-ui/listview");
+//var drawerModule = require("nativescript-telerik-ui/sidedrawer");
 
 firebase.init({
 	  // Optionally pass in properties for database, authentication and cloud messaging,
@@ -13,5 +15,5 @@ firebase.init({
 );
 
 var application = require("application");
-//application.start({ moduleName: "login-page" });
-application.start({ moduleName: "breakfast-feed" });
+application.start({ moduleName: "login-page" });
+//application.start({ moduleName: "create-breakfast" });

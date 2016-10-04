@@ -1,0 +1,52 @@
+.main-layout {
+	horizontal-align: center;
+	background-color: #ffd700;
+	padding: 5;
+}
+
+.element-edit-layout {
+	background-color: black;
+	color: white;
+	padding: 2;
+}
+
+.element-edit-lbl {
+	font-size: 14;
+	vertical-align: center;
+}
+
+.element-edit-single {
+	font-size: 12;
+	width: 100%;
+}
+
+.element-edit-multi {
+	font-size: 12;
+	width: 100%;
+}
+
+.element-btn {
+	horizontal-align: center;
+	width: 50%;
+	font-size: 14;
+	height: auto;
+	color: black;
+}
+
+.element-img {
+	horizontal-align: center;
+	width: 100%;
+	height: auto;
+}
+
+.element-time {
+	background-color: white;
+	horizontal-align: center;
+}
+
+.btn-save {
+	width: 50%;
+	horizontal-align: center;
+	font-size: 20;
+	height: auto;
+}
