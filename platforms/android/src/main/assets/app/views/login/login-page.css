@@ -1,0 +1,45 @@
+﻿.fb-text {
+    font-size: 14;
+    horizontal-align: center;
+    margin: 20;
+    color: #d0d1e8
+}
+
+.fb-button {
+    font-size: 24;
+    horizontal-align: center;
+    color: white;
+    background-color: #3b5998
+}
+
+.fb-image {
+	horizontal-align: center;
+	max-width: 30px;
+	height: auto;
+}
+
+.purdue-logo-title {
+	font-size: 20;
+	horizontal-align: center;
+	color: #d0d1e8;
+	margin: 20;
+}
+
+.purdue-logo {
+	horizontal-align: center;
+	max-width: 150px;
+	width: 150px;
+	height: auto;
+}
+
+.message {
+    font-size: 20;
+    color: #d0d1e8;/*#284848;*/
+    horizontal-align: center;
+    margin: 0 20;
+    text-align: center;
+}
+
+.main-layout {
+	background-color: black;/*#15164f;*/
+}
