@@ -1,1 +1,4 @@
 *.class
+platforms/*
+*/debug/*
+*/build/*
