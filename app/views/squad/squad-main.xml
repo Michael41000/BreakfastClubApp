@@ -34,10 +34,13 @@
 		</StackLayout>
 
 
+		<!-- Need a stack layout horiz with stack vert and grid -->
+		<StackLayout orientation="horizontal">
+		
 		<!-- Display Squad Members -->
 		<!-- Display Squad Member Profile Pics -->
 
-
+		</StackLayout>
 		<!-- -->
 		
 
