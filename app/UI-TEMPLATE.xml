@@ -8,12 +8,11 @@
 
 
 
-
+	<StackLayout>
+	<ScrollView orientation="vertical">
 	<StackLayout class="main-layout">
 
-
-	
-
+		<!-- TODO: Figure out how to keep this from scrolling -->
 		<Border borderRadius="2" borderWidth="2" borderColor="black">
 			<StackLayout orientation="horizontal" class="menu-bar">
 				<Button text="" ontap="" class="btn-view-side"/>
@@ -25,6 +24,8 @@
 
 		
 
+	</StackLayout>
+	</ScrollView>
 	</StackLayout>
 
 

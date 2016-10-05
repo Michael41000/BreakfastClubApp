@@ -4,9 +4,8 @@
 		<ActionBar title="Create A Squad"></ActionBar>
 	</Page.actionBar>
 
-
-
-
+	<StackLayout orientation="vertical">
+	<ScrollView orientation="vertical">
 	<StackLayout class="main-layout">
 
 		<Border borderRadius="2" borderWidth="2" borderColor="black">
@@ -15,6 +14,7 @@
 				<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
 			</StackLayout>
 		</Border>
+
 
 
 		<!-- Squad Name -->
@@ -30,7 +30,7 @@
 			<Label text="Choose an image to represent this Squad:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
 				<Placeholder creatingView="waiting for image selection..."/>
-				<Image src="" class="element-img"></Image>
+				<Image src="http://oregonstate_ftp.sidearmsports.com/sites/squad/img/squad-black-600.png" class="element-img"></Image>
 			</Border>
 			<Button text="Choose Image" ontap="" class="element-btn"/>
 		</StackLayout>
@@ -43,23 +43,35 @@
 			</Border>
 		</StackLayout>
 
+
+		<!--<StackLayout orientation="vertical" class="element-edit-layout">
+		<ScrollView orientation="vertical" left="0" top="0" height="75%" width="100%">-->
 		<!-- Squad Members -->
-		<GridLayout rows="auto, *" columns="2*, *">
-			<Label text="Squad Members" class="element-edit-lbl" row="0" colSpan="2"/>
-			<TextField id="member" text="{{ memberToAdd }}" hint="Enter a member name" row="1" col="0"/>
-			<Button text="Add" tap="" row="1" col="1"/>
-			<ListView id="memberList" items="{{ squadMembers }}" row="2" colSpan="2">
+		<GridLayout rows="auto, *" columns="2*, *" class="element-edit-layout">
+			<Border borderRadius="2" borderWidth="2" borderColor="yellow">
+			<TextField id="member" text="{{ memberToAdd }}" hint="Enter a member name" row="0" col="1" class="element-edit-single"/>
+			</Border>
+			<Button text="Add" tap="" row="0" col="1" class="btn-add"/>
+			<ListView id="memberList" items="{{ squadMembers }}" row="1" colSpan="2" height="100%">
 				<ListView.itemTemplate>
-					<Border borderRadius="2" borderWidth="2" borderColor="gray">
-						<Label text="{{ memberFullName }}" horizontalAlignment="left" verticalAlignment="center"/>
-					</Border>
+					<GridLayout columns="*, auto">
+						<Border borderRadius="2" borderWidth="2" borderColor="gray">
+							<Label text="{{ memberFullName }}" horizontalAlignment="left" verticalAlignment="center"/>
+						</Border>
+						<Image src="https://1.bp.blogspot.com/-4ezNV1VMjMA/V6fjCBvQsOI/AAAAAAAAKlM/INggz59GUqsah5tFva2atkH6uRZpOBCzACLcB/s320/remove%2Bapp%2Bshortcut%2Bicon%2Bin%2Bhome%2Bscreen%2Bin%2BGalaxy%2BS7%2BEdge.png" col="1" tap="" class="remove-icon"/>
+					</GridLayout>
 				</ListView.itemTemplate>
 			</ListView>
 		</GridLayout>
-		
+		<!--</ScrollView>
+		</StackLayout>-->
+
+		<Button text="Create Squad" ontap="" class="btn-save"/>
+
 
 	</StackLayout>
-
+	</ScrollView>
+	</StackLayout>
 
 
 </Page>

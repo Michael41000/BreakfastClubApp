@@ -3,7 +3,8 @@
 		<ActionBar title="Create Breakfast"></ActionBar>
 	</Page.actionBar>
 
-	
+	<StackLayout>
+	<ScrollView orientation="vertical">
 	<StackLayout class="main-layout">
 
 		<StackLayout orientation="horizontal" class="menu-bar">
@@ -59,6 +60,8 @@
 		<Button text="Create Breakfast" ontap="" class="btn-save"/>
 		
 		
+	</StackLayout>
+	</ScrollView>
 	</StackLayout>
 
 

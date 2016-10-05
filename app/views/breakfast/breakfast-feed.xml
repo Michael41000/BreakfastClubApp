@@ -4,6 +4,9 @@
 		<ActionBar title="Breakfast Feed"></ActionBar>
 	</Page.actionBar>
 
+
+	<StackLayout>
+	<ScrollView orientation="vertical">
 	<StackLayout class="main-layout">
 
 		<Border borderRadius="2" borderWidth="2" borderColor="black">
@@ -15,13 +18,14 @@
 
 	
 			<!-- Must be dynamically generated here somehow -->
+			<!-- CHANGE THIS TO A LIST VIEW!! -->
 
 			<Border borderRadius="0" borderWidth="2" borderColor="transparent">
 				<StackLayout orientation="horizontal" class="bkfst-post">
 
 					<StackLayout>
 						<Button text="/\" ontap="{{  }}" class="btn-vote"/>
-						<Label text="9000" class="lbl-vote-count"/>
+						<Label text="42" class="lbl-vote-count"/>
 						<Button text="\/" ontap="{{  }}" class="btn-vote"/>
 					</StackLayout>
 
@@ -35,15 +39,35 @@
 
 					<StackLayout>
 						<Button text="/\" ontap="{{  }}" class="btn-vote"/>
-						<Label text="9001" class="lbl-vote-count"/>
+						<Label text="1337" class="lbl-vote-count"/>
 						<Button text="\/" ontap="{{  }}" class="btn-vote"/>
 					</StackLayout>
 
 					<Image src="http://www.collectspace.com/images/news-101615a-lg.jpg" class="post-img"></Image>
 
 				</StackLayout>
-			</Border>			
+			</Border>
+
+
+
+			<Border borderRadius="0" borderWidth="2" borderColor="transparent">
+				<StackLayout orientation="horizontal" class="bkfst-post">
+
+					<StackLayout>
+						<Button text="/\" ontap="{{  }}" class="btn-vote"/>
+						<Label text="9001" class="lbl-vote-count"/>
+						<Button text="\/" ontap="{{  }}" class="btn-vote"/>
+					</StackLayout>
+
+					<Image src="http://wallup.net/wp-content/uploads/2016/01/258094-Pillars_of_Creation-nebula-space-stars.jpg" class="post-img"></Image>
+
+				</StackLayout>
+			</Border>		
 
 			
 	</StackLayout>
+	</ScrollView>
+	</StackLayout>
+
+	
 </Page>
