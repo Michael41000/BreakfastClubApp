@@ -9,7 +9,7 @@
 	<ScrollView orientation="vertical">
 	<StackLayout class="main-layout">
 
-		<Border borderRadius="2" borderWidth="2" borderColor="black">
+		<Border borderRadius="2" borderWidth="2" class="menu-bar-border">
 			<StackLayout orientation="horizontal" class="menu-bar">
 				<Button text="" ontap="" class="btn-view-side"/>
 				<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
@@ -23,11 +23,13 @@
 			<Border borderRadius="0" borderWidth="2" borderColor="transparent">
 				<StackLayout orientation="horizontal" class="bkfst-post">
 
+					<Border borderRadius="2" borderWidth="2" borderColor="white">
 					<StackLayout>
 						<Button text="/\" ontap="{{  }}" class="btn-vote"/>
 						<Label text="42" class="lbl-vote-count"/>
 						<Button text="\/" ontap="{{  }}" class="btn-vote"/>
 					</StackLayout>
+
 
 					<Image src="https://dalewrites.files.wordpress.com/2012/09/saturn-v-rocket.jpeg" class="post-img"></Image>
 

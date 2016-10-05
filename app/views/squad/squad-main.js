@@ -14,9 +14,12 @@ var page;
 
 var pageData = new Observable();
 pageData.squadMembers = new ObservableArray([
-	{ memberFullName: "Generic Member 1" },
-	{ memberFullName: "Generic Member 2" },
-	{ memberFullName: "Generic Member 3" }
+	{ memberFullName: "Generic Member 1",
+	  memberSrcImg: "https://s-media-cache-ak0.pinimg.com/736x/b7/21/26/b721265eb826b20e6f91d6643b95c122.jpg" },
+	{ memberFullName: "Generic Member 2",
+	  memberSrcImg: "https://s-media-cache-ak0.pinimg.com/736x/b7/21/26/b721265eb826b20e6f91d6643b95c122.jpg" },
+	{ memberFullName: "Generic Member 3",
+	  memberSrcImg: "https://s-media-cache-ak0.pinimg.com/736x/b7/21/26/b721265eb826b20e6f91d6643b95c122.jpg" }
 ]);
 
 exports.loaded = function(args){

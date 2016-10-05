@@ -50,20 +50,6 @@
 	height: 30px;
 }
 
-.lbl-countdown {
-	color: black;
-	font-size: 16;
-	horizontal-align: right;
-	vertical-align: center;
-}
-
-.menu-bar {
-	background-color: #B1810B;
-	color: black;
-	padding: 5;
-	width: 100%;
-}
-
 
 
 
@@ -77,6 +63,30 @@ ActionBar {
 Page {
 	background-color: #B1810B;
 }
+
+Border {
+	borderRadius: 0;
+	borderWidth: 1;
+	borderColor: transparent;
+}
+
+.menu-bar-border {
+	border-color: gray;
+}
+
+.menu-bar {
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+.lbl-countdown {
+	color: white;
+	font-size: 16;
+	horizontal-align: right;
+	vertical-align: center;
+}
+
 
 .main-layout {
 	background-color: #B1810B;
