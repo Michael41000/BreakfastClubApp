@@ -1,17 +1,16 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" loaded="loaded">
 
 	<Page.actionBar>
-		<ActionBar title="Squad"></ActionBar>
+		<ActionBar title="Squidward Squad"></ActionBar>
 	</Page.actionBar>
 
 
 
-
+	<StackLayout>
+	<ScrollView orientation="vertical">
 	<StackLayout class="main-layout">
 
-
-	
-
+		<!-- TODO: Figure out how to keep this from scrolling -->
 		<Border borderRadius="2" borderWidth="2" borderColor="black">
 			<StackLayout orientation="horizontal" class="menu-bar">
 				<Button text="" ontap="" class="btn-view-side"/>
@@ -19,10 +18,31 @@
 			</StackLayout>
 		</Border>
 
+		<!-- Display Squad Image -->
+		<StackLayout orientation="vertical" class="element-edit-layout">
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<Image src="http://oregonstate_ftp.sidearmsports.com/sites/squad/img/squad-black-600.png" class="element-img"></Image>
+			</Border>
+		</StackLayout>
 
 
+		<!-- Display Squad Description -->
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<Label text="For too long has a collection of squids been known as either 'squids' or a 'shoal' and I think that's just disrespectful. They need a scientifically acknowledged name for their groups! Something that sounds appropriate to a group-like nature. Whales have pods, fish have schools, so why can't squid have a squad? Would you mess with a Squid Squad? I don't think so. 'If that squid had a squad, I'd scram!'" class="element-edit-lbl" textWrap="true"/>
+			</Border>
+		</StackLayout>
+
+
+		<!-- Display Squad Members -->
+		<!-- Display Squad Member Profile Pics -->
+
+
+		<!-- -->
 		
 
+	</StackLayout>
+	</ScrollView>
 	</StackLayout>
 
 

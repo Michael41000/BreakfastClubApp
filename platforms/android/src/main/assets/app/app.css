@@ -40,19 +40,7 @@
     text-align: center;
 }
 
-.main-layout {
-	background-color: #ffd700;
-	paddingTop: 2;
-}
 
-ActionBar {
-	horizontal-align: center;
-	background-color: transparent;
-}
-
-Page {
-	background-color: #ffd700;
-}
 
 .btn-view-side {
 	background-image: http://i.stack.imgur.com/KVkTq.jpg;
@@ -70,7 +58,7 @@ Page {
 }
 
 .menu-bar {
-	background-color: #ffd700;
+	background-color: #B1810B;
 	color: black;
 	padding: 5;
 	width: 100%;
@@ -80,6 +68,21 @@ Page {
 
 
 
+/* USED BY ALL XML FILES */
+ActionBar {
+	horizontal-align: center;
+	background-color: transparent;
+}
+
+Page {
+	background-color: #B1810B;
+}
+
+.main-layout {
+	background-color: #B1810B;
+	paddingTop: 2;
+	padding: 5;
+}
 
 .element-edit-layout {
 	background-color: black;
