@@ -1,6 +1,6 @@
 <Page 
 	xmlns="http://schemas.nativescript.org/tns.xsd"
-	navigatingTo="onNavigatingTo">
+	navigatingTo="onNavigatingTo" loaded="loaded">
 
 	<Page.actionBar>
 		<ActionBar title="Main Page - Dev Mode"></ActionBar>

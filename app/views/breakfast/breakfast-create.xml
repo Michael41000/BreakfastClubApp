@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" loaded="loaded">
 	<Page.actionBar>
 		<ActionBar title="Create Breakfast"></ActionBar>
 	</Page.actionBar>
@@ -12,7 +12,7 @@
 		</StackLayout>
 
 	
-
+		<!-- Breakfast Name -->
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Name of Breakfast:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
@@ -20,6 +20,7 @@
 			</Border>
 		</StackLayout>
 
+		<!-- Breakfast Image -->
 		<StackLayout orientation="vertical" class="element-edit-layout">
 			<Label text="Choose an image to represent this breakfast:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
@@ -29,6 +30,7 @@
 			<Button text="Choose Image" ontap="" class="element-btn"/>
 		</StackLayout>
 
+		<!-- Breakfast Description -->
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Description:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
@@ -36,6 +38,8 @@
 			</Border>
 		</StackLayout>
 
+		<!-- Breakfast Mods -->
+		<!-- CHANGE THIS TO A LIST WHICH ELEMENTS CAN BE ADDED TO -->
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Moderators:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
@@ -43,6 +47,7 @@
 			</Border>
 		</StackLayout>
 
+		<!-- Breakfast Time -->
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Start Time:" class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
@@ -50,6 +55,7 @@
 			</Border>
 		</StackLayout>
 
+		<!-- Breakfast Name -->
 		<Button text="Create Breakfast" ontap="" class="btn-save"/>
 		
 		

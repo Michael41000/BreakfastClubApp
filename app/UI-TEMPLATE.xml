@@ -1,6 +1,6 @@
 <!-- THIS IS THE GENERIC TEMPLATE FOR EVERY UI PAGE (Subject to change) -->
 <!-- Copy and paste below this comment to start out with a template for a new page -->
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" loaded="loaded">
 
 	<Page.actionBar>
 		<ActionBar title="[PAGE_TITLE_HERE]"></ActionBar>
