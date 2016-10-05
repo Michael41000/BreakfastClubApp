@@ -41,7 +41,8 @@
 }
 
 .main-layout {
-	background-color: #9595a0;/*#15164f;*/
+	background-color: #ffd700;
+	paddingTop: 2;
 }
 
 ActionBar {
@@ -63,8 +64,9 @@ Page {
 
 .lbl-countdown {
 	color: black;
-	font-size: 14;
+	font-size: 16;
 	horizontal-align: right;
+	vertical-align: center;
 }
 
 .menu-bar {

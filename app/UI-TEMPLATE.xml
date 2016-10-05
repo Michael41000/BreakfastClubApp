@@ -1,0 +1,32 @@
+<!-- THIS IS THE GENERIC TEMPLATE FOR EVERY UI PAGE (Subject to change) -->
+<!-- Copy and paste below this comment to start out with a template for a new page -->
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+
+	<Page.actionBar>
+		<ActionBar title="[PAGE_TITLE_HERE]"></ActionBar>
+	</Page.actionBar>
+
+
+
+
+	<StackLayout class="main-layout">
+
+
+	
+
+		<Border borderRadius="2" borderWidth="2" borderColor="black">
+			<StackLayout orientation="horizontal" class="menu-bar">
+				<Button text="" ontap="" class="btn-view-side"/>
+				<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
+			</StackLayout>
+		</Border>
+
+
+
+		
+
+	</StackLayout>
+
+
+
+</Page>

@@ -1,0 +1,30 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+
+	<Page.actionBar>
+		<ActionBar title="Create A Squad"></ActionBar>
+	</Page.actionBar>
+
+
+
+
+	<StackLayout class="main-layout">
+
+
+	
+
+		<Border borderRadius="2" borderWidth="2" borderColor="black">
+			<StackLayout orientation="horizontal" class="menu-bar">
+				<Button text="" ontap="" class="btn-view-side"/>
+				<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
+			</StackLayout>
+		</Border>
+
+
+
+		
+
+	</StackLayout>
+
+
+
+</Page>

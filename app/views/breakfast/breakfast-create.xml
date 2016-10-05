@@ -1,0 +1,59 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+	<Page.actionBar>
+		<ActionBar title="Create Breakfast"></ActionBar>
+	</Page.actionBar>
+
+	
+	<StackLayout class="main-layout">
+
+		<StackLayout orientation="horizontal" class="menu-bar">
+			<Button text="" ontap="" class="btn-view-side"/>
+			<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
+		</StackLayout>
+
+	
+
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Label text="Name of Breakfast:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<TextField text="{{ brkfstName }}" class="element-edit-single"/>
+			</Border>
+		</StackLayout>
+
+		<StackLayout orientation="vertical" class="element-edit-layout">
+			<Label text="Choose an image to represent this breakfast:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<Placeholder creatingView="waiting for image selection..."/>
+				<Image src="" class="element-img"></Image>
+			</Border>
+			<Button text="Choose Image" ontap="" class="element-btn"/>
+		</StackLayout>
+
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Label text="Description:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<TextView text="{{ brkfstDesc }}" class="element-edit-multi"/>
+			</Border>
+		</StackLayout>
+
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Label text="Moderators:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<TextView text="{{ brkfstMods }}" class="element-edit-multi"/>
+			</Border>
+		</StackLayout>
+
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Label text="Start Time:" class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<TimePicker class="element-time"/>
+			</Border>
+		</StackLayout>
+
+		<Button text="Create Breakfast" ontap="" class="btn-save"/>
+		
+		
+	</StackLayout>
+
+
+</Page>
