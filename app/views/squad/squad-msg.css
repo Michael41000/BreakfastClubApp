@@ -1,6 +1,15 @@
 .msg-text {
 	font-size: 14;
 	color: white;
+	horizontal-align: left;
+	vertical-align: center;
+}
+
+.msg-time {
+	font-size: 14;
+	color: white;
+	horizontal-align: right;
+	vertical-align: center;
 }
 
 .msg-send-txt {

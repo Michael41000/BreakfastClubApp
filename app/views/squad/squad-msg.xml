@@ -21,17 +21,20 @@
 		</Border>
 
 		<Border borderRadius="0" borderWidth="1" borderColor="transparent">
-			<ListView id="messageList" items="{{ msgList }}" height="{{ msgList.length * 100 }}">
+			<ListView id="messageList" items="{{ msgList }}" height="{{ msgList.length * 100 }}" backgroundColor="black">
 				<ListView.itemTemplate>
 					<Border borderRadius="5" borderWidth="2" borderColor="gray">
-						<Label text="{{ msgText }}" tap="" class="msg-text" textWrap="true"/>
+						<StackLayout>
+							<Label text="{{ msgText }}" tap="" class="msg-text" textWrap="true"/>
+							<Label text="{{ timestamp }}" class="msg-time" textWrap="true"/>
+						</StackLayout>
 					</Border>
 				</ListView.itemTemplate>
 			</ListView>
 		</Border>
 
 		<Border borderRadius="0" borderWidth="1" borderColor="transparent">
-			<StackLayout orientation="horizontal">
+			<StackLayout orientation="horizontal" backgroundColor="black">
 				<TextView text="{{ msgText }}" class="msg-send-txt"/>
 				<Button text="Send" tap="" class="msg-send-btn"/>
 			</StackLayout>
