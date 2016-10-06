@@ -13,6 +13,7 @@
 	<StackLayout class="main-layout">
 
 		<!-- TODO: Figure out how to keep this from scrolling -->
+		<!-- TODO: ^^ I figured it out. Move menu bar between the <ActionBar> tags above -->
 		<Border borderRadius="2" borderWidth="2" borderColor="black">
 			<StackLayout orientation="horizontal" class="menu-bar">
 				<Button text="" ontap="" class="btn-view-side"/>

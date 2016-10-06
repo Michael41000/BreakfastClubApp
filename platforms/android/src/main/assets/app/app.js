@@ -16,5 +16,5 @@ firebase.init({
 
 var application = require("application");
 //application.start({ moduleName: "views/login/login-page" });
-application.start({ moduleName: "views/squad/squad-msg" });
+application.start({ moduleName: "views/profile/profile-create" });
 //application.start({ moduleName: "views/breakfast/breakfast-feed" });
