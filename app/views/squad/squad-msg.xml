@@ -6,7 +6,8 @@
 
 
 
-
+	<StackLayout>
+	<ScrollView orientation="vertical">
 	<StackLayout class="main-layout">
 
 
@@ -19,10 +20,20 @@
 			</StackLayout>
 		</Border>
 
-
+		<Border borderRadius="0" borderWidth="1" borderColor="transparent">
+			<ListView id="messageList" items="{{ msgList }}" height="{{ msgList.length * 100 }}">
+				<ListView.itemTemplate>
+					<Border borderRadius="5" borderWidth="2" borderColor="gray">
+						<Label text="{{ msgText }}" tap="" class="msg-text"/>
+					</Border>
+				</ListView.itemTemplate>
+			</ListView>
+		</Border>
 
 		
 
+	</StackLayout>
+	</ScrollView>
 	</StackLayout>
 
 
