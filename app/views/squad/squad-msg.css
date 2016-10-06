@@ -1,3 +1,18 @@
 .msg-text {
-	
+	font-size: 14;
+	color: white;
+}
+
+.msg-send-txt {
+	font-size: 14;
+	width: 75%;
+	color: white;
+}
+
+.msg-send-btn {
+	font-size: 14;
+	width: 25%;
+	height: auto;
+	background-color: blue;
+	color: white;
 }

@@ -16,12 +16,9 @@
 			</StackLayout>
 		</Border>
 
-	
-			<!-- Must be dynamically generated here somehow -->
-			<!-- CHANGE THIS TO A LIST VIEW!! -->
 
 			<Border borderRadius="0" borderWidth="2" borderColor="transparent">
-				<ListView id="postList" items="{{ posts }}" height="{{ posts.length * 300">
+				<ListView id="postList" items="{{ posts }}" height="{{ posts.length * 300 }}">
 					<ListView.itemTemplate>
 						<StackLayout orientation="horizontal" class="bkfst-post">
 

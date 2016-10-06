@@ -24,12 +24,18 @@
 			<ListView id="messageList" items="{{ msgList }}" height="{{ msgList.length * 100 }}">
 				<ListView.itemTemplate>
 					<Border borderRadius="5" borderWidth="2" borderColor="gray">
-						<Label text="{{ msgText }}" tap="" class="msg-text"/>
+						<Label text="{{ msgText }}" tap="" class="msg-text" textWrap="true"/>
 					</Border>
 				</ListView.itemTemplate>
 			</ListView>
 		</Border>
 
+		<Border borderRadius="0" borderWidth="1" borderColor="transparent">
+			<StackLayout orientation="horizontal">
+				<TextView text="{{ msgText }}" class="msg-send-txt"/>
+				<Button text="Send" tap="" class="msg-send-btn"/>
+			</StackLayout>
+		</Border>
 		
 
 	</StackLayout>
