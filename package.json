@@ -13,6 +13,7 @@
     }
   },
   "dependencies": {
+    "nativescript-permissions": "^1.2.0",
     "nativescript-plugin-firebase": "^3.6.1",
     "nativescript-telerik-ui": "^1.4.1",
     "tns-core-modules": "2.2.1"
