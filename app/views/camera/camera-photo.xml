@@ -1,7 +1,7 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
     <StackLayout>
         <Label text="Take a picture" class="title" />
-        <Image id="myImage" />
+        <Image id="myImage" class="disp-img"/>
         <Button text="Take" tap="tapAction" />
         <Button id="btnProfPic" text="Set As Profile Pic" tap="setAsProfilePic" isEnabled="false"/>
     </StackLayout>
