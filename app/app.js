@@ -4,4 +4,4 @@
 var application = require("application");
 //application.start({ moduleName: "views/login/login-page" });
 //application.start({ moduleName: "views/profile/profile-create" });
-application.start({ moduleName: "views/breakfast/single-feed" });
+application.start({ moduleName: "views/switch/switch-view" });

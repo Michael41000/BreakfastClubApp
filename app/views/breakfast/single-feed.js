@@ -5,6 +5,13 @@ var ObservableArray = require("data/observable-array").ObservableArray;
 var listViewModule = require("ui/list-view");
 var page;
 
+var frameModule = require("ui/frame");
+
+exports.switchView = function() {
+	console.log("switchView");
+	frameModule.topmost().navigate("/views/switch/switch-view");
+}
+
 var currentPicture = new Observable({
 	votes: 42,
 	imgSrc: "https://dalewrites.files.wordpress.com/2012/09/saturn-v-rocket.jpeg"}

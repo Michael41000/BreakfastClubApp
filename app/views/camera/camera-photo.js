@@ -3,6 +3,12 @@ var firebase = require("nativescript-plugin-firebase");
 var permissions = require("nativescript-permissions");            
 var myImage = require("ui/image");
 var config = require("../../config");
+var frameModule = require("ui/frame");
+
+exports.switchView = function() {
+	console.log("switchView");
+	frameModule.topmost().navigate("/views/switch/switch-view");
+}
 
 
 exports.pageLoaded = function(args) {
