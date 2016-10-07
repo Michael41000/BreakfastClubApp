@@ -10,6 +10,11 @@ exports.login = function() {
 	frameModule.topmost().navigate("/views/login/login-page");
 }
 
+exports.main = function() {
+	console.log("Main");
+	frameModule.topmost().navigate("/views/main-page/main-page");
+}
+
 exports.brkfstCreate = function() {
 	console.log("BrkfstCreate in production");
 	//frameModule.topmost().navigate("/views/breakfast/breakfast-create");

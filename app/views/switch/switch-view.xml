@@ -21,6 +21,7 @@
 
 		<StackLayout>
 			<Button text="Login" tap="login" class="btn-nav"/>
+			<Button text="Main Page" tap="main" class="btn-nav"/>
 			<Button text="Breakfast Feed" tap="brkfstFeed" class="btn-nav"/>
 			<Button text="Create Breakfast" tap="brkfstCreate" class="btn-nav"/>
 			<Button text="Camera Photo" tap="cameraPhoto" class="btn-nav"/>
