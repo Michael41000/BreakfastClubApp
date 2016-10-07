@@ -40,18 +40,7 @@
     text-align: center;
 }
 
-.main-layout {
-	background-color: #9595a0;/*#15164f;*/
-}
 
-ActionBar {
-	horizontal-align: center;
-	background-color: transparent;
-}
-
-Page {
-	background-color: #ffd700;
-}
 
 .btn-view-side {
 	background-image: http://i.stack.imgur.com/KVkTq.jpg;
@@ -61,15 +50,86 @@ Page {
 	height: 30px;
 }
 
-.lbl-countdown {
-	color: black;
-	font-size: 14;
-	horizontal-align: right;
+
+
+
+
+/* USED BY ALL XML FILES */
+ActionBar {
+	horizontal-align: center;
+	background-color: transparent;
+}
+
+Page {
+	background-color: #B1810B;
+}
+
+Border {
+	borderRadius: 0;
+	borderWidth: 1;
+	borderColor: transparent;
+}
+
+.menu-bar-border {
+	border-color: gray;
 }
 
 .menu-bar {
-	background-color: #ffd700;
-	color: black;
-	padding: 5;
+	background-color: black;
+	color: white;
 	width: 100%;
+}
+
+.lbl-countdown {
+	color: white;
+	font-size: 16;
+	horizontal-align: right;
+	vertical-align: center;
+}
+
+
+.main-layout {
+	background-color: #B1810B;
+	paddingTop: 2;
+	padding: 5;
+}
+
+.element-edit-layout {
+	background-color: black;
+	color: white;
+	padding: 2;
+}
+
+.element-edit-lbl {
+	font-size: 14;
+	vertical-align: center;
+}
+
+.element-edit-single {
+	font-size: 12;
+	width: 100%;
+}
+
+.element-edit-multi {
+	font-size: 12;
+	width: 100%;
+}
+
+.element-btn {
+	horizontal-align: center;
+	width: 50%;
+	font-size: 14;
+	height: auto;
+	color: black;
+}
+
+.element-img {
+	horizontal-align: center;
+	width: 100%;
+	height: auto;
+}
+
+.element-time {
+	background-color: white;
+	horizontal-align: center;
 }

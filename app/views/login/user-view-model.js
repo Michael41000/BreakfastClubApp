@@ -7,8 +7,11 @@ function User(info) {
 
 	// You can add properties to observables on creation
 	var viewModel = new Observable({
+		uid: info.uid || "",
+		name: info.name || "",
 		email: info.email || "",
-		password: info.password || ""
+		profileImageURL: info.profileImageURL || ""
+
 	});
 
 	viewModel.init = function(){
@@ -25,12 +28,21 @@ function User(info) {
 	};
 	
 	viewModel.login = function() {
-		return firebase.login({
+		firebase.login({
 	    	type: firebase.LoginType.FACEBOOK,
 		    scope: ['public_profile', 'email'] // optional: defaults to ['public_profile', 'email']
 		}).then(
 			function (result) {
-				JSON.stringify(result);
+				var userJson = JSON.parse(JSON.stringify(result));
+				viewModel.uid = userJson.uid;
+				viewModel.name = userJson.name;
+				viewModel.email = userJson.email;
+				viewModel.profileImageURL = userJson.profileImageURL;
+				firebase.setValue("/Users/" + viewModel.get("uid"), {
+					'name': viewModel.get("name"),
+					'email': viewModel.get("email"),
+					'profileImageURL': viewModel.get("profileImageURL")
+				});
 			},
 			function (errorMessage) {
 				console.log(errorMessage);
