@@ -17,7 +17,7 @@
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Name of Breakfast:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
-				<TextField text="{{ brkfstName }}" class="element-edit-single"/>
+				<TextField id="brkfstName" text="{{ name }}" class="element-edit-single"/>
 			</Border>
 		</StackLayout>
 
@@ -35,7 +35,7 @@
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Description:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
-				<TextView text="{{ brkfstDesc }}" class="element-edit-multi"/>
+				<TextView id="brkfstDesc" text="{{ description }}" class="element-edit-multi"/>
 			</Border>
 		</StackLayout>
 
@@ -44,7 +44,7 @@
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Moderators:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
-				<TextView text="{{ brkfstMods }}" class="element-edit-multi"/>
+				<TextView id="brkfstMod" text="{{ moderators }}" class="element-edit-multi"/>
 			</Border>
 		</StackLayout>
 
@@ -52,12 +52,12 @@
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Start Time:" class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
-				<TimePicker class="element-time"/>
+				<TimePicker id="startTime" class="element-time"/>
 			</Border>
 		</StackLayout>
 
 		<!-- Breakfast Name -->
-		<Button text="Create Breakfast" ontap="" class="btn-save"/>
+		<Button text="Create Breakfast" ontap="create" class="btn-save"/>
 		
 		
 	</StackLayout>

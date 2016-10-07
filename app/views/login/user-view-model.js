@@ -27,13 +27,15 @@ function User(info) {
 		);
 	};
 	
-	viewModel.login = function() {
+	viewModel.login = function(callback) {
 		firebase.login({
 	    	type: firebase.LoginType.FACEBOOK,
-		    scope: ['public_profile', 'email'] // optional: defaults to ['public_profile', 'email']
+		    scope: ['public_profile', 'email' , 'user_friends'] // optional: defaults to ['public_profile', 'email']
 		}).then(
 			function (result) {
+				console.log(JSON.stringify(result));
 				var userJson = JSON.parse(JSON.stringify(result));
+				//console.log(userJson.friends);
 				viewModel.uid = userJson.uid;
 				viewModel.name = userJson.name;
 				viewModel.email = userJson.email;
@@ -42,12 +44,27 @@ function User(info) {
 					'name': viewModel.get("name"),
 					'email': viewModel.get("email"),
 					'profileImageURL': viewModel.get("profileImageURL")
+				
 				});
+
+				callback(true);
 			},
 			function (errorMessage) {
 				console.log(errorMessage);
+				callback(false);
 			}
 		)
+	};
+
+	viewModel.getCurrentUser = function () {
+		firebase.getCurrentUser().then(
+			function (result) {
+				console.log(JSON.stringify(result));
+			},
+			function (errorMessage) {
+				console.log("No current user");
+			}
+		);
 	};
 
 	return viewModel;

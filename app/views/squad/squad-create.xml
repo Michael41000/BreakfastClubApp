@@ -21,7 +21,7 @@
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Name of Squad:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
-				<TextField text="{{ squadName }}" class="element-edit-single"/>
+				<TextField id="squadname" class="element-edit-single"/>
 			</Border>
 		</StackLayout>
 
@@ -39,7 +39,7 @@
 		<StackLayout orientation="horizontal" class="element-edit-layout">
 			<Label text="Description:  " class="element-edit-lbl"/>
 			<Border borderRadius="0" borderWidth="2" borderColor="gray">
-				<TextView text="{{ squadDesc }}" class="element-edit-multi"/>
+				<TextView id="description" class="element-edit-multi"/>
 			</Border>
 		</StackLayout>
 
@@ -49,14 +49,14 @@
 		<!-- Squad Members -->
 		<GridLayout rows="auto, *" columns="2*, *" class="element-edit-layout">
 			<Border borderRadius="2" borderWidth="2" borderColor="yellow">
-			<TextField id="member" text="{{ memberToAdd }}" hint="Enter a member name" row="0" col="1" class="element-edit-single"/>
+			<TextField id="member" hint="Enter a member name" row="0" col="1" class="element-edit-single"/>
 			</Border>
 			<Button text="Add" tap="" row="0" col="1" class="btn-add"/>
 			<ListView id="memberList" items="{{ squadMembers }}" row="1" colSpan="2" height="100%">
 				<ListView.itemTemplate>
 					<GridLayout columns="*, auto">
 						<Border borderRadius="2" borderWidth="2" borderColor="gray">
-							<Label text="{{ memberFullName }}" horizontalAlignment="left" verticalAlignment="center"/>
+							<Label horizontalAlignment="left" verticalAlignment="center"/>
 						</Border>
 						<Image src="https://1.bp.blogspot.com/-4ezNV1VMjMA/V6fjCBvQsOI/AAAAAAAAKlM/INggz59GUqsah5tFva2atkH6uRZpOBCzACLcB/s320/remove%2Bapp%2Bshortcut%2Bicon%2Bin%2Bhome%2Bscreen%2Bin%2BGalaxy%2BS7%2BEdge.png" col="1" tap="" class="remove-icon"/>
 					</GridLayout>
@@ -66,7 +66,7 @@
 		<!--</ScrollView>
 		</StackLayout>-->
 
-		<Button text="Create Squad" ontap="" class="btn-save"/>
+		<Button text="Create Squad" ontap="createSquad" class="btn-save"/>
 
 
 	</StackLayout>
