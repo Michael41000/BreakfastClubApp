@@ -13,7 +13,7 @@
 -->
 
 		<StackLayout orientation="horizontal" class="menu-bar">
-			<Button text="" ontap="" class="btn-view-side"/>
+			<Button text="" tap="switchView" class="btn-view-side"/>
 			<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
 		</StackLayout>
 

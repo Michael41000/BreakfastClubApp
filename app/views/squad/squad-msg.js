@@ -3,6 +3,12 @@ var Observable = require("data/observable").Observable;
 var observableModule = require("data/observable");
 var ObservableArray = require("data/observable-array").ObservableArray;
 var page;
+var frameModule = require("ui/frame");
+
+exports.switchView = function() {
+	console.log("switchView");
+	frameModule.topmost().navigate("/views/switch/switch-view");
+}
 
 /*var pageData = new observableModule.fromObject({
 	squadMembers: new ObservableArray([

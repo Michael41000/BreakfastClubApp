@@ -1,0 +1,41 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" loaded="loaded">
+
+	<Page.actionBar>
+		<ActionBar title="Choose Yo View"></ActionBar>
+	</Page.actionBar>
+
+
+
+	<StackLayout>
+	<ScrollView orientation="vertical">
+	<StackLayout class="main-layout">
+
+		<!-- TODO: Figure out how to keep this from scrolling -->
+		<!-- TODO: ^^ I figured it out. Move menu bar between the <ActionBar> tags above -->
+		<Border borderRadius="2" borderWidth="2" borderColor="black">
+			<StackLayout orientation="horizontal" class="menu-bar">
+				<Button text="" tap="switchView" class="btn-view-side"/>
+				<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
+			</StackLayout>
+		</Border>
+
+		<StackLayout>
+			<Button text="Login" tap="login" class="btn-nav"/>
+			<Button text="Main Page" tap="main" class="btn-nav"/>
+			<Button text="Breakfast Feed" tap="brkfstFeed" class="btn-nav"/>
+			<Button text="Create Breakfast" tap="brkfstCreate" class="btn-nav"/>
+			<Button text="Camera Photo" tap="cameraPhoto" class="btn-nav"/>
+			<Button text="Squad Create" tap="squadCreate" class="btn-nav"/>
+			<Button text="Squad Main" tap="squadMain" class="btn-nav"/>
+			<Button text="Squad Msg" tap="squadMsg" class="btn-nav"/>
+		</StackLayout>
+
+		
+
+	</StackLayout>
+	</ScrollView>
+	</StackLayout>
+
+
+
+</Page>

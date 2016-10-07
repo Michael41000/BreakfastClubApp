@@ -78,6 +78,7 @@ Border {
 	background-color: black;
 	color: white;
 	width: 100%;
+	padding: 5;
 }
 
 .lbl-countdown {

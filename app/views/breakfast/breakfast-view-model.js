@@ -11,8 +11,8 @@ function Breakfast(info) {
 		image: info.image || "",
 		description: info.description || "",
 		moderators: info.moderators || "",
-		startHour: info.startTime || -1,
-		startMinute: info.startMinute || -1
+		startHour: info.startTime || 0,
+		startMinute: info.startMinute || 0
 	});
 
 	viewModel.createBreakfast = function() {
@@ -25,9 +25,6 @@ function Breakfast(info) {
 			'startMinute': viewModel.get("startMinute")
 		});
 	};
-
-
-	
 
 	return viewModel;
 }

@@ -2,7 +2,15 @@ var dialogsModule = require("ui/dialogs");
 var Observable = require("data/observable").Observable;
 var observableModule = require("data/observable");
 var ObservableArray = require("data/observable-array").ObservableArray;
+var listViewModule = require("ui/list-view");
 var page;
+
+var frameModule = require("ui/frame");
+
+exports.switchView = function() {
+	console.log("switchView");
+	frameModule.topmost().navigate("/views/switch/switch-view");
+}
 
 /*var pageData = new observableModule.fromObject({
 	squadMembers: new ObservableArray([
@@ -22,7 +30,7 @@ pageData.posts = new ObservableArray([
 	  imgSrc: "http://wallup.net/wp-content/uploads/2016/01/258094-Pillars_of_Creation-nebula-space-stars.jpg"}
 ]);
 
-exports.loaded = function(args){
+exports.loaded = function(post){
 	page = args.object;
 	page.bindingContext = pageData;
 };

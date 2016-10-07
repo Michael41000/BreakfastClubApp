@@ -11,7 +11,7 @@
 
 		<Border borderRadius="2" borderWidth="2" class="menu-bar-border">
 			<StackLayout orientation="horizontal" class="menu-bar">
-				<Button text="" ontap="" class="btn-view-side"/>
+				<Button text="" tap="switchView" class="btn-view-side"/>
 				<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
 			</StackLayout>
 		</Border>
@@ -23,9 +23,9 @@
 						<StackLayout orientation="horizontal" class="bkfst-post">
 
 							<StackLayout>
-								<Button text="/\" ontap="{{  }}" class="btn-vote"/>
+								<Button text="/\" ontap="increaseVotes" class="btn-vote"/>
 								<Label text="{{ votes }}" class="lbl-vote-count"/>
-								<Button text="\/" ontap="{{  }}" class="btn-vote"/>
+								<Button text="\/" ontap="" class="btn-vote"/>
 							</StackLayout>
 
 
