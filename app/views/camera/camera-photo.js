@@ -99,7 +99,11 @@ exports.tapAction = function() {
 		       			 */
 		       			
 		       			console.log("Uploaded image");
-		       			
+
+		       			/* Enable the Set As Profile Pic Button */
+		       			/* set button object id="btnProfPic" property isEnabled to true */
+		       			document.getElementById("btnProfPic").disabled = false;
+
 	       		 }, function (error) {
 	       				console.log("firebase.init error: " + error);
 	       		 });
@@ -114,5 +118,7 @@ exports.tapAction = function() {
 
 }
 
-
+exports.setAsProfilePic = function() {
+	/* Set as profile pic here */
+}
 
