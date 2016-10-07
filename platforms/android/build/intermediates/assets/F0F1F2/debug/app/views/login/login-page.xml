@@ -1,4 +1,5 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" loaded="loaded">
+
 	<Page.actionBar>
 		<ActionBar title="Login"></ActionBar>
 	</Page.actionBar>
@@ -22,7 +23,7 @@
 		</StackLayout>
 	
 		<Label text="To get started, Login with Facebook" class="fb-text" textWrap="True"/>
-		<Button text="Login with Facebook" tap="{{ onTap }}" class="fb-button"/>
+		<Button text="Login with Facebook" tap="signIn" class="fb-button"/>
 		<Label text="{{ message }}" class="message" textWrap="true"/>
 	
   </StackLayout>

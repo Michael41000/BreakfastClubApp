@@ -2431,20 +2431,21 @@ containing a value of this type.
         public static final int common_signin_button_text=0x7f050036;
         public static final int common_signin_button_text_long=0x7f050037;
         public static final int default_web_client_id=0x7f05003b;
-        public static final int firebase_database_url=0x7f05003c;
-        public static final int gcm_defaultSenderId=0x7f05003d;
-        public static final int google_api_key=0x7f05003e;
-        public static final int google_app_id=0x7f05003f;
-        public static final int google_crash_reporting_api_key=0x7f050040;
-        public static final int google_storage_bucket=0x7f050041;
-        public static final int list_view_default_empty_content=0x7f050042;
+        public static final int facebook_app_id=0x7f05003c;
+        public static final int firebase_database_url=0x7f05003d;
+        public static final int gcm_defaultSenderId=0x7f05003e;
+        public static final int google_api_key=0x7f05003f;
+        public static final int google_app_id=0x7f050040;
+        public static final int google_crash_reporting_api_key=0x7f050041;
+        public static final int google_storage_bucket=0x7f050042;
+        public static final int list_view_default_empty_content=0x7f050043;
         public static final int messenger_send_button_text=0x7f050038;
-        public static final int on_demand_manual_button_busy=0x7f050043;
-        public static final int on_demand_manual_button_idle=0x7f050044;
+        public static final int on_demand_manual_button_busy=0x7f050044;
+        public static final int on_demand_manual_button_idle=0x7f050045;
         public static final int status_bar_notification_info_overflow=0x7f050039;
-        public static final int title_activity_kimera=0x7f050045;
-        public static final int trial_message=0x7f050046;
-        public static final int trial_message_caption=0x7f050047;
+        public static final int title_activity_kimera=0x7f050046;
+        public static final int trial_message=0x7f050047;
+        public static final int trial_message_caption=0x7f050048;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08008b;
