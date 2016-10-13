@@ -7,12 +7,13 @@
 
 	<StackLayout>
 	<StackLayout class="main-layout">
-
 		<Border borderRadius="2" borderWidth="2" class="menu-bar-border">
+
 			<StackLayout orientation="horizontal" class="menu-bar">
 				<Button text="" ontap="" class="btn-view-side"/>
-				<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
+				<Label text="{{ countdownTimerString }}" id="countdownLabel"/>
 			</StackLayout>
+
 		</Border>
 
 			<Border borderRadius="0" borderWidth="2" borderColor="transparent">
@@ -28,9 +29,13 @@
 							<Image src="{{ imgSrc }}" class="post-img" ontap="loadNext"></Image>
 						</StackLayout>
 			</Border>
+
+		<Button text="Display Date" ontap="displayDate"/>
+		<Label id="dateLabel" text=""/>
 			
 	</StackLayout>
-	</StackLayout>
+</StackLayout>
+
 
 	
 </Page>
