@@ -1,0 +1,37 @@
+.profile-name {
+	font-size: 14;
+	vertical-align: center;
+	horizontal-align: left;
+	color: white;
+}
+
+.profile-pic {
+	width: 100px;
+	height: auto;
+}
+
+.profile-list {
+	padding: 5;
+}
+
+.navigation-btns-list {
+
+}
+
+.btn-msgs {
+	width: 50%;
+	height: 50px;
+	background-color: blue;
+	color: white;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+.btn-pics {
+	width: 50%;
+	height: 50px;
+	background-color: orange;
+	color: white;
+	vertical-align: center;
+	horizontal-align: center;
+}

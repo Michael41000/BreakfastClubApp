@@ -1,0 +1,23 @@
+.bkfst-post {
+	background-color: black;
+	width: 100%;
+}
+
+.btn-vote {
+	background-color: transparent;
+	width: 40;
+	height: 40;
+	font-size: 12;
+	color: #ffd700;
+}
+
+.lbl-vote-count {
+	horizontal-align: center;
+    color: #ffd700;
+}
+
+.post-img {
+	horizontal-align: center;
+	width: 300px;
+	height: auto;
+}
