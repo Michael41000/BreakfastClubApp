@@ -2,3 +2,5 @@
 platforms/*
 */debug/*
 */build/*
+tsconfig.json
+package.json
