@@ -7,38 +7,67 @@ function User(info) {
 
 	// You can add properties to observables on creation
 	var viewModel = new Observable({
-		email: info.email || "",
-		password: info.password || ""
-	});
+uid: info.uid || "",
+name: info.name || "",
+email: info.email || "",
+profileImageURL: info.profileImageURL || ""
 
-	viewModel.init = function(){
-		firebase.init({
-			url: config.apiUrl
-		}).then(
-			function (instance) {
-				console.log("firebase.init done");
-			},
-			function (error) {
-				console.log("firebase.init error: " + error);
-			}
-		);
-	};
-	
-	viewModel.login = function() {
-		return firebase.login({
-	    	type: firebase.LoginType.FACEBOOK,
-		    scope: ['public_profile', 'email'] // optional: defaults to ['public_profile', 'email']
-		}).then(
+});
+
+viewModel.init = function(){
+	firebase.init({
+url: config.apiUrl
+}).then(
+	function (instance) {
+	console.log("firebase.init done");
+	},
+	function (error) {
+	console.log("firebase.init error: " + error);
+	}
+	);
+};
+
+viewModel.login = function(callback) {
+	firebase.login({
+type: firebase.LoginType.FACEBOOK,
+scope: ['public_profile', 'email' , 'user_friends'] // optional: defaults to ['public_profile', 'email']
+}).then(
+	function (result) {
+	console.log(JSON.stringify(result));
+	var userJson = JSON.parse(JSON.stringify(result));
+	//console.log(userJson.friends);
+	viewModel.uid = userJson.uid;
+	viewModel.name = userJson.name;
+	viewModel.email = userJson.email;
+	viewModel.profileImageURL = userJson.profileImageURL;
+	firebase.setValue("/Users/" + viewModel.get("uid"), {
+		'name': viewModel.get("name"),
+		'email': viewModel.get("email"),
+		'profileImageURL': viewModel.get("profileImageURL")
+
+		});
+
+	callback(true);
+	},
+	function (errorMessage) {
+	console.log(errorMessage);
+	callback(false);
+	}
+)
+};
+
+viewModel.getCurrentUser = function () {
+	firebase.getCurrentUser().then(
 			function (result) {
-				JSON.stringify(result);
+			console.log(JSON.stringify(result));
 			},
 			function (errorMessage) {
-				console.log(errorMessage);
+			console.log("No current user");
 			}
-		)
-	};
+			);
+};
 
-	return viewModel;
+return viewModel;
 }
 
 function handleErrors(response) {
