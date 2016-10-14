@@ -1,0 +1,48 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" loaded="loaded">
+
+	<Page.actionBar>
+		<ActionBar title="Edit Yo Profile"></ActionBar>
+	</Page.actionBar>
+
+
+
+	<StackLayout>
+	<ScrollView orientation="vertical">
+	<StackLayout class="main-layout">
+
+		<!-- TODO: Figure out how to keep this from scrolling -->
+		<Border borderRadius="2" borderWidth="2" borderColor="black">
+			<StackLayout orientation="horizontal" class="menu-bar">
+				<Button text="" tap="switchView" class="btn-view-side"/>
+				<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
+			</StackLayout>
+		</Border>
+
+		<!-- Profile Image -->
+		<StackLayout orientation="vertical" class="element-edit-layout">
+			<Label text="Edit profile picture:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<Image src="https://s-media-cache-ak0.pinimg.com/736x/b7/21/26/b721265eb826b20e6f91d6643b95c122.jpg" class="element-img" borderRadius="50"></Image>
+			</Border>
+			<Button text="Choose Image" ontap="" class="element-btn"/>
+		</StackLayout>
+
+		<!-- About Me -->
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Label text="About Me:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<TextView text="{{ aboutMe }}" class="element-edit-multi"/>
+			</Border>
+		</StackLayout>
+
+		<!-- Create! -->
+		<Button text="Update Profile" ontap="" class="btn-save"/>
+		
+
+	</StackLayout>
+	</ScrollView>
+	</StackLayout>
+
+
+
+</Page>

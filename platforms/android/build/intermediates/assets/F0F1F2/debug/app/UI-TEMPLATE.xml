@@ -1,0 +1,34 @@
+<!-- THIS IS THE GENERIC TEMPLATE FOR EVERY UI PAGE (Subject to change) -->
+<!-- Copy and paste below this comment to start out with a template for a new page -->
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" loaded="loaded">
+
+	<Page.actionBar>
+		<ActionBar title="[PAGE_TITLE_HERE]"></ActionBar>
+	</Page.actionBar>
+
+
+
+	<StackLayout>
+	<ScrollView orientation="vertical">
+	<StackLayout class="main-layout">
+
+		<!-- TODO: Figure out how to keep this from scrolling -->
+		<!-- TODO: ^^ I figured it out. Move menu bar between the <ActionBar> tags above -->
+		<Border borderRadius="2" borderWidth="2" borderColor="black">
+			<StackLayout orientation="horizontal" class="menu-bar">
+				<Button text="" tap="switchView" class="btn-view-side"/>
+				<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
+			</StackLayout>
+		</Border>
+
+
+
+		
+
+	</StackLayout>
+	</ScrollView>
+	</StackLayout>
+
+
+
+</Page>

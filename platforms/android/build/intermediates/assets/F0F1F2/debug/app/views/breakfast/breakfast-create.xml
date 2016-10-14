@@ -1,0 +1,68 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" loaded="loaded">
+	<Page.actionBar>
+		<ActionBar title="Create Breakfast"></ActionBar>
+	</Page.actionBar>
+
+	<StackLayout>
+	<ScrollView orientation="vertical">
+	<StackLayout class="main-layout">
+
+		<StackLayout orientation="horizontal" class="menu-bar">
+			<Button text="" tap="switchView" class="btn-view-side"/>
+			<Label text="BREAKFAST COUNTDOWN:  4d 11h 6m" class="lbl-countdown"/>
+		</StackLayout>
+
+	
+		<!-- Breakfast Name -->
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Label text="Name of Breakfast:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<TextField id="brkfstName" text="{{ name }}" class="element-edit-single"/>
+			</Border>
+		</StackLayout>
+
+		<!-- Breakfast Image -->
+		<StackLayout orientation="vertical" class="element-edit-layout">
+			<Label text="Choose an image to represent this breakfast:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<Placeholder creatingView="waiting for image selection..."/>
+				<Image src="" class="element-img"></Image>
+			</Border>
+			<Button text="Choose Image" ontap="" class="element-btn"/>
+		</StackLayout>
+
+		<!-- Breakfast Description -->
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Label text="Description:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<TextView id="brkfstDesc" text="{{ description }}" class="element-edit-multi"/>
+			</Border>
+		</StackLayout>
+
+		<!-- Breakfast Mods -->
+		<!-- CHANGE THIS TO A LIST WHICH ELEMENTS CAN BE ADDED TO -->
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Label text="Moderators:  " class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<TextView id="brkfstMod" text="{{ moderators }}" class="element-edit-multi"/>
+			</Border>
+		</StackLayout>
+
+		<!-- Breakfast Time -->
+		<StackLayout orientation="horizontal" class="element-edit-layout">
+			<Label text="Start Time:" class="element-edit-lbl"/>
+			<Border borderRadius="0" borderWidth="2" borderColor="gray">
+				<TimePicker id="startTime" class="element-time"/>
+			</Border>
+		</StackLayout>
+
+		<!-- Breakfast Name -->
+		<Button text="Create Breakfast" ontap="create" class="btn-save"/>
+		
+		
+	</StackLayout>
+	</ScrollView>
+	</StackLayout>
+
+
+</Page>
