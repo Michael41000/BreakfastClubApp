@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-database-9.4.0_193d759d0df54a72713a12c5686bb2eef1b5e602.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-analytics-9.4.0_2a2788d4e601a6d87e710679a013965c29c8b57d.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-messaging-9.4.0_83fccefcb9c0b6b7dddaa053c06bd5790660413e.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.android.gms-play-services-basement-9.4.0_de2b869543d2bc8707d3d5a7d79bae5fa4deadf0.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-database-connection-9.4.0_48f36aabe36afd03e3b1057a16b65542710f2c13.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/bolts-tasks-1.4.0_37b62c207647f19529004954aa180314d2cdc3fe.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-common-9.4.0_9bf388643d353311ec86c6732e3603ecf900f642.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-animated-vector-drawable-23.4.0_9a17c19a20cef47af33cbbe5f6062d388ff42cb8.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/Data-2016.3.920-dev-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="831bf7d7737d28726580ca59ea08cfaf948df276">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-Data-2016.3.920-dev-release_5379d89bf98740276f7eef5c93f5ee084397529e.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/firebase-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ac414a1fd113ad2b4ed7d6e38e698358142895a5">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-firebase-release_6ad65f2521d537216418eced7abae0dd1e8f802c.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-support-v4-23.4.0_b3f7148e4978102a3aeb19f39cebf1801693e524.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-cardview-v7-23.4.0_aa6ee84f88151701fada625de8d5587da2eb9c75.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/Common-2016.3.920-dev-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c62048aafe399ba0e0927c15b5a48e4b73766a2f">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-Common-2016.3.920-dev-release_e2c1de59c56d0801d218aa0e15b80b78c1cb2d85.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-storage-9.4.0_66f16c4abf8ae10dde2ce0d1864e0230035fd2c2.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.16.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="99d79164a8f983161bdb59b1403b9e4a1127aae1">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.facebook.android-facebook-android-sdk-4.16.1_b40de4566d911cbca9a419464cd56bcb2a5a634d.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-appcompat-v7-23.4.0_59c45458fb33c208bf41aaa1a2502d89261a2294.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-auth-module-9.4.0_2a662ddc8cb6830b374d6469e7065933afbf4bf7.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/Primitives-2016.3.920-dev-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e296c6ddd0f33757e8d66aefb852494ef02541af">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-Primitives-2016.3.920-dev-release_31d80ac41b4a5f2d61e4a61b6203afa69ccbb20f.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.android.gms-play-services-auth-base-9.4.0_c4b85afa720b74f2ece8f861ea68ee72e7d1ec97.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-auth-common-9.4.0_d5d100956d0781f60ef4d151b1a2b67440821ae9.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-auth-9.4.0_75b8d82012d0700de18cf0b4e9909c9bed5c0ab5.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.android.gms-play-services-base-9.4.0_18eb4bc285f071fc6afeca4510d701ade5ea7f34.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-analytics-impl-9.4.0_eecd388aaf95284dea06f611cd6936efd6f5f90f.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/BreakfastClubApp/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="736a019270b8fb0fda4532f90fc9d1a7458022c0">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/binding-generator_fb133d9b1d350c6391d5309eb5b13d1d16cbf590.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-crash-9.4.0_84992e81e246c9ddbd0ca36266618fb191a56d8d.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.android.gms-play-services-auth-9.4.0_bf747495495e2425d796d33dbe8289f9a2f25d03.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-recyclerview-v7-23.1.0_40f60ff664f660f7b781fc7c2faa0811294da488.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-support-vector-drawable-23.4.0_77ccd80aae50a9a9c5dd9ac79a2f287090f6e262.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/List-2016.3.920-dev-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8644d83c548cc6b3f28f96450fe1c1e3f800edeb">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-List-2016.3.920-dev-release_77c0c69171654e094d62c53d794c9fcbe65d3c36.jar" />
+    </item>
+    <item
+        jar="/usr/local/Cellar/android-sdk/24.4.1_1/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/support-annotations-23.4.0_a12a58e60202c69d81c9a0c51e787f1734022445.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/bolts-applinks-1.4.0_f04470c9f2f4fafe6dba0b1497821eb8a58d82ce.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.android.support-customtabs-23.4.0_bca7bb40a252157deaf4f40551ad913a340597a3.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="89f0a1f737477abeda61c0072529d5158b1ebe81">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/intermediates-exploded-aar-widgets-release_c5cfa240816b9fe801e8899fab63c8cc697f6fcd.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.android.gms-play-services-tasks-9.4.0_e38803a5440cd9b8c7b8295a26e28eb2ea36b255.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/internal_impl-23.4.0_d5e79f8dabe4037b4a8de35372ff890ecf569868.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/BreakfastClubApp/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="60fb0eb96d073a4a1d71095f8e16dbb6ff73681c">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/BreakfastClubApp-runtime-unspecified_27cb2edcb97efd8b6722a450eff89dc644cade92.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-config-9.4.0_eaeeb852df14512e3595b1c9cec31f2d8d2e5e5c.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-storage-common-9.4.0_6329224776f275a500aeb8cd6953d4c0772ba009.jar" />
+    </item>
+    <item
+        jar="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/michaelrollberg/Documents/BreakfastClub/BreakfastClubApp/platforms/android/build/intermediates/pre-dexed/F0F1F2/debug/com.google.firebase-firebase-iid-9.4.0_3f77314851029ba6878899c18dcc7f664db0fdcf.jar" />
+    </item>
+
+</items>
