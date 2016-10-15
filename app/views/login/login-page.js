@@ -9,7 +9,7 @@ exports.switchView = function() {
 
 function onNavigatingTo(args) {
 	var page = args.object;
-	page.bindingContext = createViewModel();
+	page.bindingContext = user;
 	//user.init();
 }
 exports.onNavigatingTo = onNavigatingTo;

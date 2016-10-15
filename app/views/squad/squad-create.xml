@@ -49,7 +49,7 @@
 		<!-- Squad Members -->
 		<GridLayout rows="auto, *" columns="2*, *" class="element-edit-layout">
 			<Border borderRadius="2" borderWidth="2" borderColor="yellow">
-			<TextField id="member" text="{{ memberToAdd }}" hint="Enter a member name" row="0" col="1" class="element-edit-single"/>
+			<TextField id="member" text="{{ member }}" hint="Enter a member name" row="0" col="1" class="element-edit-single"/>
 			</Border>
 			<Button text="Add" tap="" row="0" col="1" class="btn-add"/>
 			<ListView id="memberList" items="{{ squadMembers }}" row="1" colSpan="2" height="100%">
@@ -66,7 +66,7 @@
 		<!--</ScrollView>
 		</StackLayout>-->
 
-		<Button text="Create Squad" ontap="" class="btn-save"/>
+		<Button text="Create Squad" ontap="createSquad" class="btn-save"/>
 
 
 	</StackLayout>

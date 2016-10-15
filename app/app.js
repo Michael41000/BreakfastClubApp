@@ -2,11 +2,24 @@
 //var drawerModule = require("nativescript-telerik-ui/sidedrawer");
 
 var UserViewModel = require("./views/login/user-view-model");
-
+var firebase = require("nativescript-plugin-firebase");
 var application = require("application");
 
+firebase.init({
+		// Optionally pass in properties for database, authentication and cloud messaging,
+		// see their respective docs.
+}).then(
+	function (instance) {
+		console.log("firebase.init done");
+	},
+	function (error) {
+		console.log("firebase.init error: " + error);
+	}
+);
+
 global.user = new UserViewModel();
-user.init();
+
+
 
 //application.start({ moduleName: "views/login/login-page" });
 //application.start({ moduleName: "views/profile/profile-create" });

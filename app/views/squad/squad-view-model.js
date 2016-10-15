@@ -7,12 +7,23 @@ function Squad(info) {
 
 	// You can add properties to observables on creation
 	var viewModel = new Observable({
-		squadname: info.name || "",
+		squadName: info.name || "",
 		captain: info.captain || "",
-		description: info.name || "",
+		squadDesc: info.squadDesc || "",
 		photo: info.photo || "",
-		members: info.members || []
+		member: info.member || ""
 	});
+
+	viewModel.create = function() {
+		firebase.setValue("/Squad/Test", {
+			'squadName': viewModel.get("squadName"),
+			'captain': viewModel.get("captain"),
+			'squadDesc': viewModel.get("squadDesc"),
+			//'photo': viewModel.get("photo"),
+			'member': viewModel.get("member")
+		});
+	};
+
 
 	return viewModel;
 }
