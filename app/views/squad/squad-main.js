@@ -3,6 +3,8 @@ var Observable = require("data/observable").Observable;
 var observableModule = require("data/observable");
 var ObservableArray = require("data/observable-array").ObservableArray;
 var page;
+var SquadViewModel = require("./squad-view-model");
+var squad = new SquadViewModel();
 
 /*var pageData = new observableModule.fromObject({
 	squadMembers: new ObservableArray([
@@ -25,4 +27,7 @@ pageData.squadMembers = new ObservableArray([
 exports.loaded = function(args){
 	page = args.object;
 	page.bindingContext = pageData;
+	squad.addValueEventListener();
 };
+
+

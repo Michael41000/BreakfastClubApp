@@ -10,8 +10,8 @@ function User(info) {
 		uid: info.uid || "",
 		name: info.name || "",
 		email: info.email || "",
-		profileImageURL: info.profileImageURL || ""
-
+		profileImageURL: info.profileImageURL || "",
+		squadKey: info.squadKey || ""
 	});
 
 
@@ -28,13 +28,7 @@ function User(info) {
 				viewModel.name = userJson.name;
 				viewModel.email = userJson.email;
 				viewModel.profileImageURL = userJson.profileImageURL;
-				firebase.setValue("/Users/" + viewModel.get("uid"), {
-					'name': viewModel.get("name"),
-					'email': viewModel.get("email"),
-					'profileImageURL': viewModel.get("profileImageURL")
-
-				});
-
+				viewModel.setUser();		
 				callback(true);
 			},
 			function (errorMessage) {
@@ -54,6 +48,15 @@ function User(info) {
 			}
 		);
 	};
+	viewModel.setUser = function () {
+		firebase.setValue("/Users/" + viewModel.get("uid"), {
+			'name': viewModel.get("name"),
+			'email': viewModel.get("email"),
+			'profileImageURL': viewModel.get("profileImageURL"),
+			'squadKey': viewModel.get("squadKey")
+		});
+	};
+
 
 	return viewModel;
 }
